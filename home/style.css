@@ -1,0 +1,39 @@
+div{
+    display:flex;
+    padding: 10px;
+    justify-content: space-between;
+    color: bisque;
+}
+
+.logo{
+    width: 20px;
+    height: px
+}
+header{
+    background-color: black;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding:11px;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: bolder;
+    font-family: sans-serif;
+    padding: 5px 10px;
+}
