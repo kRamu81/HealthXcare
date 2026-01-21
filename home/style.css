@@ -5,10 +5,7 @@ div{
     color: bisque;
 }
 
-.logo{
-    width: 20px;
-    height: px
-}
+
 header{
     background-color: black;
 }
@@ -42,6 +39,7 @@ nav ul li a{
     background-image: url('https://img.freepik.com/premium-photo/medical-background-empty-space_198067-685618.jpg');
     background-size: cover;
     background-position: center;
+    ;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -72,3 +70,4 @@ nav ul li a{
     border-radius: 5px;
     background-color: rgb(58, 57, 57);
 }
+

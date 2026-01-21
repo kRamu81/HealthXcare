@@ -4,27 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../Login/login.css">
 </head>
 <body>
-    <h1>Login</h1>
-    <article>
-        <h1 class="logo">HealthXcare</h1>
-    <form action="">
-        <label for="Email">Email</label>
-        <input type="text" name="Email"><br><br>
+    
+    <div class="container">
 
-        <label for="Password">Password</label>
-        <input type="text" name="Password">
-        <p><a href="">Forgot Password?</a></p>
-        <br>
-        <button type="submit">Google</button>
-        <span>or</span>
-        <button type="Submit">Others</button>
-        <br>
-        <br>
+        <h1 class="logo">HealthXcare</h1>
+        <h3>Login in to see more</h3>
+    <form action="Submit" method="post" class="form">
+        <div>
+            <label for="Email">Email</label>
+            <input type="text" id="Email" required>
+        </div>
+
+        <div>
+            <label for="Password">Password</label>
+            <input type="text" id="Password" required>
+        </div>
         <button type="submit">Login</button>
-        <p><a href="signup">Dont have Account Singup?</a></p>
+        
+        <p><a href="">Forgot Password?</a></p>
+
+        <span>OR</span>
+        
+
+        <button type="submit">Google</button>
+        
+        <button type="Submit">Others</button>
+        
+        <p>Forgot your password?</p>
+        <p>Are you sure? Get started here</p>
+        <hr>
+        <p>Dont have Account?<a href="../Login/signup.html">Singup</a></p>
+        <p id="message"></p>
     </form>
-    </article>
+    </div>
+    <script src="../Login/login.js"></script>
 </body>
 </html>

@@ -1,0 +1,118 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    background: #faf8f8;
+    width: 360px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.logo {
+    color: #141414;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+h3 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.form {
+    text-align: left;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #111111;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+
+span {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    color: #777;
+    font-weight: bold;
+}
+
+/* Links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Horizontal line */
+hr {
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+/* Message */
+#message {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+}
